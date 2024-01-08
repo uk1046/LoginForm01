@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/idname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="90sp"
+        android:gravity="center"
+        android:text="Username :"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+
+    <EditText
+        android:id="@+id/userId"
+        android:layout_width="190sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="183sp"
+        android:layout_marginTop="-42sp"
+        android:hint="Enter User ID"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="Password:"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="190sp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:layout_marginTop="-42sp"
+        android:layout_marginLeft="183sp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:id="@+id/pass"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="25sp"
+        android:layout_marginLeft="250sp"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold"
+        android:id="@+id/btn01"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:id="@+id/msg"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="250dp"
+        />
+</LinearLayout>
